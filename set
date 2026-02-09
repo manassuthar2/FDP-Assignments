@@ -1,0 +1,32 @@
+s = {1, 2, 3, 4, 5, 6, 7}
+print(s)
+
+s.add(40)
+print(s)
+
+s.update([50, 60])
+print(s)
+
+s.remove(4)
+print(s)
+
+x = s.pop()
+print(x)
+print(s)
+
+st = s.copy()
+print(st)
+
+st.clear()
+print(st)
+
+a = {1, 2, 3}
+b = {3, 4, 5}
+
+print(a.union(b))
+print(a.intersection(b))
+print(a.difference(b))
+print(a.symmetric_difference(b))
+
+print(a.issubset({1, 2, 3, 4, 5}))
+print(a.issuperset({1, 2}))
